@@ -1,0 +1,175 @@
+body{
+    font-family:'Teko', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: larger;
+    margin: 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px  rgba(254, 9, 9, 0.978);
+}
+video{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    /* bluring background */
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+    /* ^^^^^^^^^^^^^^^^^^^^^ */
+
+}
+.overlay{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+
+}
+
+h1:hover{
+
+    color: aliceblue;
+    text-shadow: 4px 6px 8px blueviolet;
+
+}
+
+span{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+
+   
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height:700px ;
+}
+
+#home::before{
+    content:"" ;
+    background-image: url("https://wallpaperaccess.com/full/1673045.jpg");
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    border: 2px inset blue;
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    top: 900px;
+    left: 65%;
+    box-shadow: 4px 6px;
+
+}
+.pic{
+    display: flex;
+}
+
+.pic img{
+    width: 400px;
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+}
+.pc h4{
+    color: red;
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    color: rgb(230, 17, 17);
+    text-align: center;
+    margin: 15px;
+    text-shadow: 4px 5px 6px ;
+}
+.gallery{
+    justify-content: space-around;
+    box-shadow: 3px 4px 5px 8px blue;
+}
+ .gallery img{
+    width: 500px;
+    height: 300px;
+    margin: 100px;
+    margin-bottom: 10px;
+ }
+
+ .gallery img:hover{
+    box-shadow: 3px 4px 5px 8px red;
+ }
+ .row{
+    display: flex;
+ }
+ .box{
+    width: 700px;
+    height: 800px;
+    margin: 2%;
+    border: 2px solid black;
+    background: linear-gradient(to top,rgb(162, 0, 232)50%,rgb(0, 203, 249)50%);
+    background-size:100% 200%;
+    transition: all 0.6s;
+ }
+ .box:hover{
+    background-position: right bottom;
+    border: 4px ridge rgb(123, 196, 194);
+    box-shadow: 3px 4px 8px 9px black;
+ }
+ .box img{
+width: 100%;
+height: 50%;
+border-radius: 5%;
+ }
+ .box h5{
+    color: blue;
+    margin: 5px;
+    text-align: center;
+    text-shadow: 2px 4px 6px;
+ }
+ .box p{
+    text-align: justify;
+    padding: 40px;
+ }
+ form{
+    width: 700px;
+    margin-left: 500px;
+ }
+ input{
+    width: 100%;
+    margin: 6%;
+ }
+ button{
+    color: aliceblue;
+    background-color: black;
+ }
+.cv{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 15%;
+    margin-left: 20px;
+
+ }
